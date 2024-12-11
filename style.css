@@ -74,7 +74,7 @@ h2{
 }
 
 .main-content{
-    width: 95%;
+    width: 70%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -206,7 +206,22 @@ font-weight: 500;
     font-weight: lighter;
     color: gold;
 }
+@media screen and (max-width: 1950px) {
 
+    .main-content{
+        width: 80%;
+      
+    
+    }
+}
+@media screen and (max-width: 1615px) {
+
+    .main-content{
+        width: 95%;
+      
+    
+    }
+}
 @media screen and (max-width: 1000px) {
 
     h2{
